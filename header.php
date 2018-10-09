@@ -22,7 +22,7 @@
     'date'      =>  _t(' %s ')
     ), '', ' - '); ?><?php $this->options->title(); ?></title>
     <meta name="keywords" content="<?php $this->keywords(); ?>" />
-    <?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
+    <?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&rss1=&rss2=&atom='); ?>
     <link href="//cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
     <link href="<?php $this->options->themeUrl('style.min.css?20170331'); ?>" rel="stylesheet">
     <!--[if lt IE 9]>
